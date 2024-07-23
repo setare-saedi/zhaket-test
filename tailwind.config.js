@@ -4,14 +4,16 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    fontFamily: {
+    
+    extend: {
+      fontFamily: {
       yakan: [
         '"yakan", sans-serif',
       ],
       'serif': ['ui-serif', 'Georgia'],
 
     },
-    extend: {},
+    },
   },
   plugins: [],
 }
