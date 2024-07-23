@@ -14,7 +14,7 @@ function About() {
             ,,
             </div>
 
-            <div className='text-xs my-4 text-[#424244]'>
+            <div className='text-xs my-4 tracking-tighter text-[#424244]'>
               با استفاده از سرویس گارد ژاکت قادر خواهید بود برای محصولات خود در ژاکِت لایسنس تعریف کرده و از نصب‌های متعدد، کپی و انتشار نسخه نال
             </div>
             <div className='font-bold text-[#878F9B] text-xs'>علیرضا محمدی فروشنده ژاکت</div>
