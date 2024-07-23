@@ -7,7 +7,7 @@ function App() {
     <div className="  font-yakan py-12  mx-auto">
      
      <Header/>
-     
+
       <div className="max-w-[986px] mx-auto shadow-md rounded-md pb-16">
        
        <Timeline/>
