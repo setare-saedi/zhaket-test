@@ -7,7 +7,9 @@ module.exports = {
     fontFamily: {
       yakan: [
         '"yakan", sans-serif',
-      ]
+      ],
+      'serif': ['ui-serif', 'Georgia'],
+
     },
     extend: {},
   },
