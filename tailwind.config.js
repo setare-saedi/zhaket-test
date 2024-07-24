@@ -11,7 +11,27 @@ module.exports = {
       'serif': ['ui-serif', 'Georgia'],
 
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        timeLineAnimation: {
+          from: {
+            opacity: "0",
+            transform: "translateX(20px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateX(0)",
+            
+          },
+        },
+        
+      },
+      
+      animation: {
+        timeLineAnimation: "timeLineAnimation 1s ease 100ms",
+      },
+    
+    },
   },
   plugins: [],
 }

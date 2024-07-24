@@ -12,15 +12,15 @@ function TimeLineItem({day, month, text, url, name}) {
                     ,,
                 </div>
 
-                <div className='text-xs my-4 tracking-tighter text-[#424244] pr-2  '>
+                <div className='text-xs my-4 tracking-tighter text-[#424244] pr-2 animate-timeLineAnimation '>
                     {text}
                 </div>
-                <div className='font-bold text-[#878F9B] text-xs pr-2 tracking-tighter'>
+                <div className='font-bold text-[#878F9B] text-xs pr-2 tracking-tighter animate-timeLineAnimation'>
                     {name}
                 </div>
             </div>
             <div>
-                <img src={url} alt='woodmart' className=' rounded-2xl shadow-xl w-[358px] h-[359px] ' />
+                <img src={url} alt='woodmart' className=' rounded-2xl shadow-xl w-[358px] h-[359px] animate-timeLineAnimation duration-1000' />
             </div>
         </div>
     )
