@@ -20,7 +20,7 @@ function TimeLineItem({day, month, text, url, name}) {
                 </div>
             </div>
             <div>
-                <img src={url} alt='woodmart' className=' rounded-2xl shadow-xl w-[358px] h-[359px] animate-timeLineAnimation duration-1000' />
+                <img src={url} alt='woodmart' className=' rounded-2xl shadow-xl w-[358px] h-[359px] animate-timeLineAnimation ' />
             </div>
         </div>
     )

@@ -1,4 +1,4 @@
-import History from './sections/AboutSections/HistoryZhacket/History';
+import History from './sections/AboutSections/History/History';
 
 function App() {
   return (

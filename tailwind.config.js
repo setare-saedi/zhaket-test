@@ -28,7 +28,7 @@ module.exports = {
       },
       
       animation: {
-        timeLineAnimation: "timeLineAnimation 1s ease 100ms",
+        timeLineAnimation: "timeLineAnimation 700ms ease 100ms",
       },
     
     },
