@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     fontFamily: {
       yakan: [
-        '"yakan", sans-serif',
+        '"yakan"',
       ],
       'serif': ['ui-serif', 'Georgia'],
 
@@ -25,12 +25,13 @@ module.exports = {
           },
         },
         
-      },
-      
+      }, 
       animation: {
         timeLineAnimation: "timeLineAnimation 700ms ease 100ms",
       },
-    
+      letterSpacing:{
+        2: '-.1em'
+      }
     },
   },
   plugins: [],
