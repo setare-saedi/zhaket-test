@@ -7,7 +7,7 @@ function TimeLineItem({day, month, text, url, name}) {
                 <div className='font-bold text-[29px] py-2 text-[#282A2C] tracking-2'>{day}</div>
                 <div className=' pb-0.5 bg-[#FF6437] text-white rounded-[10px] text-[15px] px-[10px] ring-2 ring-white tracking-tight'>{month}</div>
             </div>
-            <div className='bg-[#F0F8FF] opacity-95 relative border-4 border-white rounded-[10px] pr-6 pl-8 pb-6 lg:ml-16  shadow-xl pt-16 lg:w-[429px] '>
+            <div className='bg-[#F0F8FF] opacity-95 relative border-[3px] border-white rounded-[10px] pr-6 pl-8 pb-6 lg:ml-16  shadow-xl pt-16 lg:w-[429px] '>
                 <div className='text-[115px]  opacity-20  tracking-tighter absolute top-0 font-bold leading-6 text-[#878F9B] font-serif' >
                     ,,
                 </div>
