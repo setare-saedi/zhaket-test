@@ -7,10 +7,11 @@
     src: url('./fonts/YekanBakhFaNum-Regular.woff2') format('woff2');
     font-weight: normal;
   }
+ 
 
   @font-face {
     font-family: 'yakan';
-    src: url('./fonts/YekanBakhFaNum-Bold.woff2') format('woff2');
+    src: url('./fonts/YekanBakhFaNum-SemiBold.woff2') format('woff2');
     font-weight: bold;
   }
 

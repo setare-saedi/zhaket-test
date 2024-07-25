@@ -4,13 +4,7 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    fontFamily: {
-      yakan: [
-        '"yakan"',
-      ],
-      'serif': ['ui-serif', 'Georgia'],
-
-    },
+    
     extend: {
       keyframes: {
         timeLineAnimation: {
@@ -31,7 +25,12 @@ module.exports = {
       },
       letterSpacing:{
         2: '-.1em'
-      }
+      },
+      fontFamily: {
+        yakan: [
+          '"yakan", sans-serif',
+        ],  
+      },
     },
   },
   plugins: [],

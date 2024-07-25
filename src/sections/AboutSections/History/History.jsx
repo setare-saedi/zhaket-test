@@ -5,7 +5,7 @@ import { Tab,Tabs } from './TimeLine';
 
 function History() {
     return (
-        <div>
+        <div className=' '>
             <Header />
 
             <Tabs>
