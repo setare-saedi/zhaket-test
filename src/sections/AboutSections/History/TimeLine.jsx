@@ -9,7 +9,7 @@ const Tabs = ({ children }) => {
     };
 
     return (
-        <div className="lg:max-w-[986px]  w-[95%] mx-auto shadow-md shadow-gray-300 rounded-[10px] pb-14  pt-9">
+        <div className="lg:max-w-[986px] w-[95%] mx-auto shadow-md shadow-gray-300 rounded-[10px] pb-14 pt-9">
             <div className="lg:pl-[42px] lg:pr-[60px] md:pr-9 md:pl-7 pr-6 pl-2 lg:mb-16 mb-8 flex items-center h-36 overflow-x-scroll hide-scrollbar ">
                 <div class=" flex text-end mx-auto  relative ">
                     <div className='absolute top-[50%] left-3 w-full' >
