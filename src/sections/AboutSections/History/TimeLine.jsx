@@ -9,24 +9,23 @@ const Tabs = ({ children }) => {
     };
 
     return (
-        <div className="lg:max-w-[986px] w-[95%] mx-auto shadow-md shadow-gray-300 rounded-[10px] pb-14 lg:pl-[63px] lg:pr-[60px] md:px-8 px-4 pt-9">
-            <div className=" items-center   lg:mb-16 mb-8 flex h-36 overflow-x-scroll hide-scrollbar ">
-
-                <div class=" flex text-end relative">
-                    <div className='absolute top-[50%] right-0 w-full ' >
-                        <div className='h-2 rounded-lg w-full bg-[#F7F8F9]'>
-                            <div className='h-2  rounded-l-lg float-left w-[803px]  bg-gradient-to-r from-[#FF9737] to-[#FFC107] shadow-lg shadow-[#ff9737]'></div>
+        <div className="lg:max-w-[986px]  w-[95%] mx-auto shadow-md shadow-gray-300 rounded-[10px] pb-14  pt-9">
+            <div className="lg:pl-[42px] lg:pr-[60px] md:pr-9 md:pl-7 pr-6 pl-2 lg:mb-16 mb-8 flex items-center h-36 overflow-x-scroll hide-scrollbar ">
+                <div class=" flex text-end mx-auto  relative ">
+                    <div className='absolute top-[50%] left-3 w-full' >
+                        <div className='h-2 rounded-lg w-[864px] bg-[#F7F8F9]'>
+                            <div className='h-2 rounded-l-lg float-left w-[797px] bg-gradient-to-r from-[#FF9737] to-[#FFC107] shadow-lg shadow-[#ff9737]'></div>
                         </div>
                     </div>
                     {children.map(child => (
-                        <div className={`relative ${child.props.width} pt-2.5`}>
+                        <div className={`relative ${child.props.width} pt-2.5 `}>
                             <button
                                 key={child.props.label}
                                 onClick={e => clickHandler(e, child.props.label)}
                             >
                                 <div class=' '>
-                                    <div className={`${activeTab === child.props.label ? ' relative bg-[#464E58] text-[#E5E8EB]  rounded-md shadow-md border-[1.5px] border-white' : ''
-                                        } mb-[8px]  text-[#76767C]  text-[11px] w-fit  pt-[7px] pb-[8px] transition-all duration-200 ease-linear pr-[17px] pl-[13px] tracking-tighter font-bold`} >
+                                    <div className={`${activeTab === child.props.label ? ' relative bg-[#464E58] text-[#E5E8EB]  rounded-md shadow-md border-[1.5px] border-white   ' : ''
+                                        } mb-[8px]  text-[#76767C]  text-[11px] w-fit pt-[7px] pb-[8px] transition-all duration-200 ease-linear tracking-tighter font-bold pr-[17px] pl-[13px]`} >
                                         {child.props.label}
                                         <span className={`${activeTab === child.props.label ? 'absolute right-[47%] -bottom-[3px] rotate-45 w-1.5 h-1.5 bg-[#464E58] border-b-[1px] border-r-[1px] border-white shadow-md' : ' hidden'
                                             } `} >
@@ -34,7 +33,7 @@ const Tabs = ({ children }) => {
                                        
                                     </div>
 
-                                    <div className={`${activeTab === child.props.label ? ' bg-[#FF9737] ' :
+                                    <div className={`${activeTab === child.props.label ? 'bg-[#FF9737] ' :
                                         'bg-[#C1C3C8]'} w-[18px] h-[18px] mx-auto border-[3.5px] border-white drop-shadow-md rounded-full  transition-all duration-300`} >
                                     </div>
                                     <div className={`${activeTab === child.props.label ? 'mt-2 font-bold text-[22px]' : 'mt-5 text-[16px] '} text-[#282A2C] transition-all duration-300 ease-linear w-fit mx-auto tracking-2`}>
@@ -50,7 +49,7 @@ const Tabs = ({ children }) => {
             <div className="py-4 ">
                 {children.map(child => {
                     if (child.props.label === activeTab) {
-                        return <div key={child.props.label} >{child.props.children}</div>;
+                        return <div key={child.props.label} className='lg:pl-[63px] lg:pr-[60px] md:px-8 px-4'>{child.props.children}</div>;
                     }
                     return null;
                 })}
@@ -67,3 +66,4 @@ const Tab = ({ label, children }) => {
     );
 };
 export { Tabs, Tab };
+
